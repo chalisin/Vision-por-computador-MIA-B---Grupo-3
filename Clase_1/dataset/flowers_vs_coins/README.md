@@ -1,28 +1,28 @@
-# flowers_vs_coins dataset
+# flowers_vs_airplanes dataset
 
-Two-class image dataset: **flowers** vs **coins**.
+Two-class image dataset: **flowers** vs **airplanes**.
 
 ## Source
 - Downloaded automatically using `icrawler` (BingImageCrawler)
-- Queries: `flower`, `coins`
+- Queries: `flower`, `airplane`
 
 ## Structure
 ```
-datasets/flowers_vs_coins/
+datasets/flowers_vs_airplanes/
   raw/
     flowers/
-    coins/
+    airplanes/
   train/
     flowers/
-    coins/
+    airplanes/
   val/
     flowers/
-    coins/
+    airplanes/
 ```
 
 ## Notes
 - The script removes non-image files and corrupted images.
-- Split: 80/20 (train/test).
+- Split: 80/20 (train/val).
 
 ## Final counts
-{'flowers': {'raw': 22, 'train': 17, 'test': 5}, 'coins': {'raw': 30, 'train': 24, 'test': 6}}
+{'flowers': {'raw': 20, 'train': 16, 'val': 4}, 'coins': {'raw': 36, 'train': 28, 'val': 8}}
