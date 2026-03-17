@@ -4,7 +4,9 @@
 __pycache__/
 *.pyc
 
-# Large model artifacts
-*.h5
-*.keras
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Large model artifacts are managed with Git LFS (do not ignore here)
+
 
