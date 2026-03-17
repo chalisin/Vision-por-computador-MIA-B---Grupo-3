@@ -1,0 +1,10 @@
+
+# Python env
+.venv311/
+__pycache__/
+*.pyc
+
+# Large model artifacts
+*.h5
+*.keras
+

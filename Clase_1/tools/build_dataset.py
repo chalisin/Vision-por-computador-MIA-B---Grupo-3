@@ -12,12 +12,12 @@ import pip_system_certs.bootstrap
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DATASET_ROOT = PROJECT_ROOT / "dataset" / "flowers_vs_coins"
+DATASET_ROOT = PROJECT_ROOT / "Clase_2" / "dataset" / "students_vs_background"
 
 
 CLASSES = {
-    "flowers": "flower",
-    "coins": "coin",
+    "students": "student",
+    "background": "background",
 }
 
 
